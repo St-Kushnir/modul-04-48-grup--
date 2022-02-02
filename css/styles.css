@@ -361,6 +361,8 @@ color: #afb1b8;
 } 
 
 .client-link-icon {
+    width: 106px;
+    height: 60px;
     fill: currentColor;
 }
 
@@ -374,16 +376,17 @@ color: #afb1b8;
 /* -------FOOTER------- */
 
 .footer {
-display: block;
 background-color: var(--footer-back-color);
 max-width: 1600px;
 margin: 0 auto; 
+padding-top: 60px;
+padding-bottom: 60px;
 }
 
 .footer-container {
 display: flex;
-padding-top: 60px;
-padding-bottom: 60px;
+align-items: baseline;
+
 }
 
 .main-address {
@@ -439,7 +442,6 @@ margin-bottom: 9px;
     text-transform: uppercase;
     color: var(--footer-text-color);
     margin-bottom: 20px;
-    padding-top: 12px;
 }
 
 .footer-social-list {
